@@ -4,11 +4,17 @@ const text = ref("")
 </script>
 
 <template>
-  <div>
-    <InputText v-model="text"/> 
-    <Button label="Save"/>
+  <div class="flex-wrap gap-6">
+      <Button>HELLO</Button>
+    <Chip  label="LOVE"  />
+  <Chip label="YOU"  />
+
     
   </div>
+  
+  
+
+
 </template>
 
 
