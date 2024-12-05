@@ -1,5 +1,5 @@
 import js from '@eslint/js'
-import pluginVue from 'eslint-plugin-vue'
+
 
 export default [
   {
@@ -18,6 +18,8 @@ export default [
   {
     rules: {
       'vue/multi-word-component-names': 'off',
+      'vue/no-multiple-template-root': 'off'
+
     },
   }
 ]
